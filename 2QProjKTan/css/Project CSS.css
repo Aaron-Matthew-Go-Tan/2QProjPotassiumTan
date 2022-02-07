@@ -1,0 +1,98 @@
+body {
+	background-color: #85de59;
+}
+
+h1 {
+	font-family: "Balsamiq Sans", Roboto, Arial;
+	font-size: 55px;
+	text-align: center;
+}
+
+.caption {
+	font-family: "Times New Roman", Calibri, Arial;
+	font-size: 15px;
+	text-align: center;
+}
+
+.current_page {
+	color: red;
+}
+
+#footer {
+	background-color:#13400d;
+	clear: right;
+	color: white;
+	font-family: Roboto, Arial, "Times New Roman";
+	font-size: 15px;
+	padding: 20px;
+	text-align: left;
+}
+
+#header {
+	background-color: #e2f7b0;
+	border-bottom: 2px groove #226e25;
+}
+
+#slide {
+	position: relative;
+	right: 25%;
+	animation: slide 2s infinite;
+}
+
+.info {
+	font-family: Roboto, Arial, "Times New Roman";
+	font-size: 20px;
+	text-indent: 40px;
+}
+
+.logo {
+	height: 60px;
+	width: 60px;
+	margin: 4px;
+}
+
+.media {
+	height: 200px;
+	margin: 15px;
+	width: 200px;
+}
+
+nav > ul {
+	list-style-type: none;
+}
+
+nav > ul > li {
+	background-color: #c2f03a;
+	border-right: 3px solid #13400d;
+	display: inline-block;
+	font-family: Roboto, Arial, "Times New Roman";
+	font-size: 20px;
+	padding: 10px;
+}
+
+nav > ul > li > a {
+	color: green;
+	text-decoration: none;
+}
+
+.reference {
+	text-indent: 40px;
+}
+
+.sitename {
+	color: #369937;
+	font-size:60px;
+	font-family: Arial, Calibri, "Times New Roman"
+	font-weight: bold;
+	vertical-align: super;
+}
+
+.sprite {
+	height: 20px;
+	width: 20px;
+}
+
+@keyframes slide {
+	from {right: 25%;}
+	to {right: 0%;}
+}
